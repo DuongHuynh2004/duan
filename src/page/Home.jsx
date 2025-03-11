@@ -9,7 +9,7 @@ const Home = () => {
         <p className="mt-2">“Cung cấp dịch vụ tư vấn y tế an toàn, chính xác và tiện lợi nhất.”</p>
         <p className="mt-1">“Đồng hành cùng bạn trên hành trình chăm sóc sức khỏe toàn diện.”</p>
         <img
-          src="/doctor-banner.png"
+          src="/Images/BacSiKhoanhTay.jpg"
           alt="Bác sĩ"
           className="absolute top-0 right-5 h-40"
         />
@@ -18,15 +18,15 @@ const Home = () => {
       {/* 3 Cột: Phát triển - Tương lai - Giải pháp */}
       <section className="grid grid-cols-3 gap-6 p-10 text-center">
         <div>
-          <img src="/phat-trien.png" alt="Phát triển" className="mx-auto h-32" />
+          <img src="/Images/PhatTrienYHoc.jpg" alt="Phát triển" className="mx-auto h-32" />
           <h3 className="font-bold text-lg mt-2">Phát triển y học</h3>
         </div>
         <div>
-          <img src="/mo-ra-tuong-lai.png" alt="Tương lai" className="mx-auto h-32" />
+          <img src="/Images/MoRaTuongLai.jpg" alt="Tương lai" className="mx-auto h-32" />
           <h3 className="font-bold text-lg mt-2">Mở ra tương lai</h3>
         </div>
         <div>
-          <img src="/giai-phap-y-khoa.png" alt="Giải pháp" className="mx-auto h-32" />
+          <img src="/Images/GiaiPhapYKhoa.jpg" alt="Giải pháp" className="mx-auto h-32" />
           <h3 className="font-bold text-lg mt-2">Giải pháp y khoa</h3>
         </div>
       </section>
@@ -67,6 +67,25 @@ const Home = () => {
           <button className="mt-4 bg-white text-blue-900 font-bold py-2 px-4 rounded">
             Xem thêm
           </button>
+        </div>
+      </section>
+      {/* 3 Cột: Các bác sĩ */}
+      <section className="grid grid-cols-3 gap-6 p-10 text-center">
+        <div>
+          <img src="/Images/BSNguyenMinhTuan.jpg" alt="Bác sĩ ngoại khoa" className="mx-auto h-32" />
+          <h3 className="font-bold text-lg mt-2">Bác sĩ Nguyễn Minh Tuấn-Chuyên khoa Ngoại khoa</h3>
+        </div>
+        <div>
+          <img src="/Images/BSPhanQuangHoa.jpg" alt="Bác sĩ tim mạch" className="mx-auto h-32" />
+          <h3 className="font-bold text-lg mt-2">Bác sĩ Phan Quang Hòa-Chuyên khoa Tim mạch</h3>
+        </div>
+        <div>
+          <img src="/Images/BSTranThiLanAnh.jpg" alt="Bác sĩ nội tiết" className="mx-auto h-32" />
+          <h3 className="font-bold text-lg mt-2">Bác sĩ Trần Thị Lan Anh-Chuyên khoa Nội tiết</h3>
+        </div>
+        <div>
+          <img src="/Images/BSLeHoangDuy.jpg" alt="Bác sĩ nhi khoa" classname="mx-auto h-32"/>
+          <h3 classname="font-bold text-lg mt-2">Bác sĩ Lê Hoàng Duy-Chuyên khoa Nhi khoa</h3>
         </div>
       </section>
     </div>

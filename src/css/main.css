@@ -7,7 +7,7 @@ body {
 .v103_3 {
   width: 387px;
   height: 800px;
-  background: url("../images/v103_3.png");
+  background: url("/images/v103_3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -23,7 +23,7 @@ body {
 .v6_107 {
   width: 116px;
   height: 100px;
-  background: url("../images/v6_107.png");
+  background: url("/images/v6_107.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -38,7 +38,7 @@ body {
 .v6_109 {
   width: 100%;
   height: 81px;
-  background: url("../images/v6_109.png");
+  background: url("/images/v6_109.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
