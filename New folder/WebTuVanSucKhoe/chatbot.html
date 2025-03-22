@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Tư Vấn Sức Khỏe</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="assets/download.jpg" alt="Bác sĩ" class="avatar">
+            <div class="header-text">
+                <h2>Bác sĩ tư vấn</h2>
+                <span id="current-time"></span>
+            </div>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <div class="message bot">
+                <span class="message-text">Xin chào! Tôi là bác sĩ tư vấn. Bạn cần hỗ trợ gì?</span>
+                <span class="message-time"></span>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Nhập tin nhắn...">
+            <button id="send-button">Gửi</button>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>

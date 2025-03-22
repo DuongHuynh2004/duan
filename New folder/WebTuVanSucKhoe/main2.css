@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+.header img {
+    margin-right: 10px;
+}
+
+.box {
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.box img {
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.marquee-container {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    right: 0;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    position: relative;
+    z-index: 0;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.empty-space {
+    flex: 2;
+
+}
+.empty-space img {
+    width: 500px;
+    height: 90%;
+    object-fit: cover;
+}
+
+.form-container {
+    /* flex: 1; */
+
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    border: 1px solid #ccc;
+    padding: 40px;
+    margin-top: -90px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+form legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    grid-column: span 4;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="time"],
+form input[type="file"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus,
+form input[type="time"]:focus,
+form input[type="file"]:focus,
+form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    grid-column: span 4;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service {
+    width: 30%;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.service img {
+    width: 50px;
+}
+
+.service p {
+    text-align: left; /* Aligns the text to the left */
+}
+
+.service button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.service button:hover {
+    background-color: #0056b3;
+}
+
+strong {
+    display: block;
+    margin-top: 20px;
+    text-align: left; /* Aligns the text to the left */
+}
+
+p {
+    text-align: left; /* Aligns the text to the left */
+    margin: 10px 0;
+}
+video{
+
+    float: right;
+
+
+}
+.desc{
+    max-width: 600px;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.title{
+    font-size: 27px;
+    color:cadetblue ;
+}
+.doctor{
+    display: inline-block;
+    float: ;
+}
