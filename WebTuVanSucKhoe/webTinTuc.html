@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin tức - Bệnh viện Tâm Anh</title>
+    <link rel="stylesheet" href="styleTT.css">
+    <style>
+        /* Hiệu ứng cho hình ảnh */
+        img {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Logo">
+            <span>Trung tâm hỗ trợ tư vấn sức khỏe trực tuyến CNPM-C2-02</span>
+        </div>                
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="webTinTuc.html">Tin tức</a></li>
+                <li><a href="webBS.html">Bác sĩ</a></li>
+                <li><a href="#">Tư vấn</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Nội dung chính -->
+    <main class="container">
+        <h1>Tin tức y tế mới nhất</h1>
+
+        <!-- Giới thiệu bệnh viện -->
+        <section class="hospital-intro">
+            <h2>Giới thiệu về bệnh viện</h2>
+            <p>Bệnh viện Tâm Anh là một trong những cơ sở y tế hàng đầu, chuyên cung cấp các dịch vụ khám chữa bệnh chất lượng cao với đội ngũ bác sĩ giàu kinh nghiệm. Chúng tôi luôn cập nhật những tiến bộ mới nhất trong y học để mang đến dịch vụ chăm sóc sức khỏe tốt nhất cho bệnh nhân.</p>
+        </section>
+
+        <!-- Danh sách bài viết -->
+        <section class="articles">
+            <div class="article">
+                <img src="assets/timhieu1.jpg" alt="News 1">
+                <h3>Tiêu đề bài viết 1</h3>
+                <p>SHKH: “RSV ở trẻ nhũ nhi: Gánh nặng bệnh tật và giải pháp phòng ngừa mới”</p>
+                <a href="#">Đọc thêm</a>
+            </div>
+            <div class="article">
+                <img src="assets/timhieu2.jpg" alt="News 2">
+                <h3>Tiêu đề bài viết 2</h3>
+                <p>Ứng dụng kháng thể đơn dòng để bảo vệ trẻ trước virus hợp bào hô hấp</p>
+                <a href="#">Đọc thêm</a>
+            </div>
+            <div class="article">
+                <img src="assets/timhieu3.jpg" alt="News 3">
+                <h3>Tiêu đề bài viết 3</h3>
+                <p>Virus HPV khiến nhiều phụ nữ mắc ung thư cổ tử cung</p>
+                <a href="#">Đọc thêm</a>
+            </div>
+        </section>
+
+        <!-- Tabs -->
+      
+
+        <!-- Nội dung Tabs -->
+        <main class="news-container">
+            <section id="tin-noi-bat" class="news-box">
+                <img src="assets/tintucnb.jpg" alt="Tin nổi bật">
+                <h2>Tin tức nổi bật</h2>
+                <ul>
+                    <li><strong>Bệnh viện khai trương Trung tâm Chẩn đoán Hình ảnh hiện đại</strong></li>
+                    <li><strong>Chương trình khám sức khỏe miễn phí cho người cao tuổi</strong></li>
+                    <li><strong>Hợp tác với các chuyên gia quốc tế về phẫu thuật tim mạch</strong></li>
+                </ul>
+            </section>
+        
+            <section id="cap-nhat-chuyen-khoa" class="news-box">
+                <img src="assets/images.jpg" alt="Cập nhật chuyên khoa">
+                <h2>Cập nhật từ các chuyên khoa</h2>
+                <ul>
+                    <li><strong>Khoa Sản - Nhi:</strong> Cung cấp dịch vụ thai sản trọn gói.</li>
+                    <li><strong>Khoa Nội tổng quát:</strong> Điều trị các bệnh lý mãn tính.</li>
+                    <li><strong>Khoa Ngoại - Phẫu thuật:</strong> Ứng dụng công nghệ nội soi tiên tiến.</li>
+                </ul>
+            </section>
+        
+            <section id="cau-chuyen-benh-nhan" class="news-box">
+                <img src="assets/ttnb2.jpg" alt="Câu chuyện bệnh nhân">
+                <h2>Câu chuyện bệnh nhân</h2>
+                <p><strong>Ông Nguyễn Văn A</strong> - Hồi phục sau phẫu thuật tim.</p>
+                <p><strong>Chị Trần Thị B</strong> - Sinh con sau 10 năm hiếm muộn.</p>
+            </section>
+        
+            <section id="thanh-tuu-y-khoa" class="news-box">
+                <img src="assets/ttyh.jpg" alt="Thành tựu y khoa">
+                <h2>Thành tựu y khoa</h2>
+                <p>Bệnh viện thực hiện ca ghép gan thành công cho bệnh nhi 7 tuổi.</p>
+            </section>
+        </main>
+        
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="assets/logo.png" alt="Tâm Anh Hospital" class="footer-logo">
+            </div>
+            <div class="footer-middle">
+                <h3>HỆ THỐNG BỆNH VIỆN</h3>
+                <p>📍 108 Phố Hoàng Như Tiếp, P. Bồ Đề, Q. Long Biên, Tp. Hà Nội <a href="#">Xem bản đồ</a></p>
+                <p>📞 024 7106 6858 | 024 3872 3872 (HN)</p>
+                <p>📧 <a href="mailto:cskh@tamanhhospital.vn">cskh@hospital.vn</a></p>
+    
+                <p>📍 2B Phổ Quang, P.2, Q. Tân Bình, TP.HCM <a href="#">Xem bản đồ</a></p>
+                <p>📞 0287 102 6789 | 093 180 6858</p>
+                <p>📧 <a href="mailto:cskh@tahospital.vn">cskh@hospital.vn</a></p>
+    
+                <p>📍 Sunrise City, Central Tower, 25 Nguyễn Hữu Thọ, Q.7, TP.HCM <a href="#">Xem bản đồ</a></p>
+    
+                <p>📍 316C Phạm Hùng, P.5, Q.8, TP.HCM <a href="#">Xem bản đồ</a></p>
+            </div>
+    
+            <div class="footer-right">
+                <h3>ĐƯỜNG DẪN NHANH</h3>
+                <ul>
+                    <li><a href="#">Chuyên khoa</a></li>
+                    <li><a href="#">Chuyên mục bệnh học</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                </ul>
+                <h3>WEBSITE CÙNG TẬP ĐOÀN</h3>
+                <ul>
+                    <li><a href="#">Viện Nghiên cứu CNPM-C2-02</a></li>
+                    <li><a href="#">Trung tâm hỗ trợ tư vấn sức khỏe trực tuyến CNPM-C2-02</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>Trung tâm hỗ trợ tư vấn sức khỏe trực tuyến CNPM-C2-02</p>
+            <p>Số đăng ký kinh doanh: 0102362369</p>
+            <p>Đăng ký lần đầu ngày 11 tháng 9 năm 2007</p>
+            <div class="footer-icons">
+                <a href="#"><img src="assets/face.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/YOU.png" alt="YouTube"></a>
+                <a href="#"><img src="assets/PR.png" alt="Protected"></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
