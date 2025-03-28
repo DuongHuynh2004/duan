@@ -1,0 +1,88 @@
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-page {
+            display: flex;
+            max-width: 1200px;
+            margin: 50px auto;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .contact-info, .contact-form {
+            flex: 1;
+            padding: 30px;
+        }
+        .contact-info {
+            background-color: cadetblue;
+            color: white;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Logo">
+            <span>Trung tâm tư vấn sức khỏe</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="webTinTuc.html">Tin tức</a></li>
+                <li><a href="webBS.html">Bác sĩ</a></li>
+                <li><a href="webTuVan.html">Tư vấn</a></li>
+                <li><a href="webLienHe.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-page">
+        <div class="contact-info">
+            <h2>Thông tin liên hệ</h2>
+            <p>📍 108 Phố Hoàng Như Tiếp, P. Bồ Đề, Q. Long Biên, Tp. Hà Nội</p>
+            <p>📞 024 7106 6858 | 024 3872 3872 (HN)</p>
+            <p>📧 <a href="mailto:cskh@tamanhhospital.vn">cskh@hospital.vn</a></p>
+            <p>Giờ làm việc: 8:00 - 20:00 (Thứ 2 - Thứ 7)</p>
+        </div>
+        <div class="contact-form">
+            <h2>Gửi tin nhắn</h2>
+            <form>
+                <input type="text" placeholder="Họ và tên" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Số điện thoại">
+                <textarea placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+                <button type="submit">Gửi tin nhắn</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tư vấn Sức khỏe. Mọi quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>

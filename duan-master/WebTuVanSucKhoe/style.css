@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    background: cadetblue; /* Màu xanh chủ đạo */
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.logo-container img {
+    width: 40px; /* Điều chỉnh kích thước logo */
+    height: auto;
+    margin-right: 10px; /* Tạo khoảng cách giữa logo và chữ */
+}
+
+.logo-container span {
+    display: flex;
+    flex-direction: column; /* Chia chữ thành 2 dòng */
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+}
+
+/*Thanh Tìm Kiếm*/
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 500px;
+    margin: 0 20px;
+}
+
+.search-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-container button {
+    background: #007bff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container button svg {
+    stroke: white;
+    width: 20px;
+    height: 20px;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Căn giữa các mục */
+    white-space: nowrap; /* Ngăn chữ bị xuống dòng */
+}
+
+nav ul li a {
+    color: white; /* Chỉnh lại màu trắng cho dễ đọc */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px; /* Giảm padding xuống cho gọn */
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    border-radius: 0 0 30px 30px;
+    max-width: 100%;
+    height: auto; /* Chỉnh auto để nó không quá cao */
+}
+
+.hero h1 {
+    font-size: 32px; /* Giảm kích thước chữ */
+    font-weight: bold;
+    margin-bottom: 10px; /* Tạo khoảng cách đẹp hơn */
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: white;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+    color: white;
+}
+
+
+/* Section Nhập triệu chứng */
+.symptom-check {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.symptom-check h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.symptom-check p {
+    font-size: 18px;
+    color: #666;
+}
+
+.symptom-button {
+    background: #ff5722;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.symptom-button:hover {
+    background: #e64a19;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: white;
+}
+
+.banner button {
+    padding: 10px 20px;
+    background: white;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f5f5f5;
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.articles, .doctors, .consultation-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: cadetblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-list, .doctor-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article, .doctor {
+    width: 45%;
+    text-align: center;
+}
+
+.article img, .doctor img {
+    width: 70%;
+    border-radius: 10px;
+}
+.article a{
+    text-decoration: none;
+    color:   yellow;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.article a:hover{
+    background-color: #000;
+
+}
+.button {
+    padding: 10px;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-container {
+    display: flex;
+    justify-content: space-between; /* Căn đều khoảng cách giữa các phần tử */
+    flex-wrap: nowrap; /* Đảm bảo tất cả phần tử nằm trên một hàng */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+}
+
+.doctor {
+    flex: 1; /* Chia đều không gian cho mỗi phần tử */
+    max-width: 23%; /* Đảm bảo mỗi phần tử chiếm khoảng 1/4 chiều rộng */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.doctor img {
+    width: 150px; /* Chiều rộng cố định */
+    height: 150px; /* Chiều cao cố định */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+    border-radius: 10px; /* Bo góc hình ảnh */
+}
+
+.doctor h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.doctor p {
+    margin: 5px 0 10px;
+    font-size: 1em;
+}
+
+.doctor button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.doctor button:hover {
+    background-color: #0056b3;
+}
+
+.doctor1 img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.doctor2 img {
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+.doctor3 img {
+    width: 80%;
+    border-radius: 10px;
+}
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.form-container {
+    max-width: 600px; /* Giới hạn độ rộng form */
+    margin: 0 auto; /* Căn giữa form */
+    padding: 20px;
+}
+
+.form-container h2 {
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap; /* Để khi thu nhỏ màn hình không bị lỗi */
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group input, 
+.form-group textarea {
+    flex: 1; /* Tự động chia đều khoảng trống */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 80px; /* Tăng chiều cao cho ô nhập mô tả */
+    resize: none; /* Không cho resize */
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #007bff; /* Màu xanh đẹp */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Hiệu ứng hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: cadetblue;
+    color: white;
+}
+footer  img{
+    margin-top: 25px;
+}
+
